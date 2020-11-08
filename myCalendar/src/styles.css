@@ -106,6 +106,14 @@ button:hover {
     background-color: rgba(253, 23, 23, 0.226);
 }
 
+.calendar td:hover {
+    background-color: rgba(231, 216, 11, 0.507);
+}
+
+.calendar td:active {
+    background-color: rgba(231, 62, 11, 0.507);
+}
+
 .weekend {
     background-color: rgba(253, 23, 23, 0.226);
 }
@@ -113,3 +121,5 @@ button:hover {
 .current-day {
     border: 2px solid rgb(34, 1, 109);
 }
+
+
