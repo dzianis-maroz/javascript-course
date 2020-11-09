@@ -51,14 +51,14 @@ button:hover {
 
 
 #monthBack {
-    background-image: url(images/ic_arrow_back_128_28226.png);
+    background-image: url(../images/ic_arrow_back_128_28226.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 #monthForward {
-    background-image: url(images/ic_arrow_forward_128_28222.png);
+    background-image: url(../images/ic_arrow_forward_128_28222.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
