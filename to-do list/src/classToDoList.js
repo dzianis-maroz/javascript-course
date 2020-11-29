@@ -9,7 +9,7 @@ export default class ToDoList {
         value,
         createdAt: {
           value: +new Date(), 
-          label: new Date(),
+          label: new Date().toDateString(),
         } 
     };
         this.model.push(task); // добавляем элемент (объект) в массив
