@@ -62,9 +62,11 @@ export default class Calendar {
   
         let k = new Date(this.year, this.month + 1, 0);
         let l = day.getDate();
-        let s = k.getDate()
+        let s = k.getDate();
+
+        //  перевод строки после каждого воскресенья, кроме воскресенья, которое является последним днем месяца
   
-        if (this.getDayOfTheWeek(day) % 7 == 0 && l !== s) { //  перевод строки после каждого воскресенья, кроме воскресенья, которое является последним днем месяца
+        if (this.getDayOfTheWeek(day) % 7 == 0 && l !== s) {
             table += '</tr><tr>';
         }
   
